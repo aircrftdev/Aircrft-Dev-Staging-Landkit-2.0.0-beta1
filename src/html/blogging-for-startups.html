@@ -447,10 +447,10 @@
     </section>
     
    <!-- Aircrft Blog-in-a-Box Tech-Stack -->
-    <section class="bg-black py-8 py-md-13">
+    <section class="py-10 py-md-14 bg-black" style="background-image: url(assets/img/patterns/pattern-1.svg);">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center tech-stack">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
 
             <!-- Preheading -->
             <h6 class="text-uppercase text-warning">Tech-Stack</h6>
@@ -536,47 +536,37 @@
               
             </p>
             
-            <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalExample">
-                  Under the hood 
-                </button>
+            <!-- Card -->
+            <a class="card lift lift-lg shadow-light-lg mb-7" href="#">
+            
+              <!-- Badge -->
+              <span class="badge bg-info rounded-pill badge-float badge-float-outside">
+              Benefits
+              </span>
+   
+              <!-- Image -->
+              <img class="card-img-top" src="assets/img/products/blog/aircrft-blogging-with-benefits.png" alt="..." />
 
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
+              <!-- Body -->
+              <div class="card-body">
+                <!-- Shape -->
+                <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                  {{> curves/curve-1}}
+                </div>
 
-    <!-- SHAPE -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
-        {{> curves/curve-1}}
-      </div>
-    </div>
-    
-    <!-- CTA -->
-    <section class="py-10 py-md-14 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
+                <!-- Preheading -->
+                <h6 class="text-uppercase mb-1 text-muted">Benefits</h6>
 
-            <!-- Badge -->
-            <span class="badge rounded-pill bg-gray-700-soft mb-3">
-              <span class="h6 text-uppercase">Get it done</span>
-            </span>
+                <!-- Heading -->
+                <h4 class="mb-0 text-info">Reach and grow a highly engaged global community </h4>
 
-            <!-- Heading -->
-            <h1 class="display-4 text-white">
-              Get Dashkit and save your time.
-            </h1>
-
-            <!-- Text -->
-            <p class="fs-lg text-muted mb-6 mb-md-8">
-              Stop wasting time trying to do it the "right way" and build your app from scratch. Dashkit is faster, easier, and you still have complete control.
-            </p>
-
-            <!-- Button -->
-            <a href="#!" class="btn btn-primary-desat lift">
-              Check it out <i class="fe fe-arrow-right ms-2"></i>
+              </div>
             </a>
+            
+            <!-- Button -->
+            <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalExample">
+                  Explore under the hood <i class="fe fe-arrow-right ms-2"></i>
+                  </button>
 
           </div>
         </div> <!-- / .row -->
