@@ -74,12 +74,12 @@
 
             </div>
 
-            <!-- Button Old Blog in a Box  | https://gum.co/ZVkym? -->
+            <!-- Button Old Blog in a Box  | https://gum.co/ZVkym? 
             <p class="mb-7 mb-md-9 text-center" data-aos="fade-up" data-aos-delay="150">
               <a class="btn btn-info shadow lift" href="https://gum.co/ZVkym?wanted=true” target=“_blank">
                 Blog-in-a-Box | Buy Now <i class="fe fe-arrow-right ms-3"></i>
               </a>
-            </p> 
+            </p> -->
             
             <!-- Button New Blog in a Box https://gumroad.com/l/zwIVA -->
             <p class="mb-7 mb-md-9 text-center" data-aos="fade-up" data-aos-delay="150">
@@ -539,25 +539,31 @@
               Watch Demo
              </a> -->
              
-            <!-- Buttons -->
+            <!-- Buttons 
             <div class="text-center text-md-start">
               <a href="overview.html" class="btn btn-primary shadow lift me-1">
                 Get started <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
-              </a>
+              </a> -->
               
               <a href="docs/index.html" class="btn btn-primary-soft lift">
                 Watch Demo
               </a> 
               
-              <!-- Button -->                <p class="mb-7 mb-md-9 text-center" data-aos="fade-up" data-aos-delay="150">
+              <!-- Button                 <p class="mb-7 mb-md-9 text-center" data-aos="fade-up" data-aos-delay="150">
                   <a class="btn btn-info shadow lift" href="https://gum.co/ZVkym?wanted=true" target="_blank">
-                    Get started <i class="fe fe-arrow-right ms-3"></i>
+                    Get started <i class="fe fe-arrow-right ms-3"></i> -->
                     
-              <!-- Button watch now -->
+              <!-- Button watch now 
              <a class="btn btn-pill btn-white shadow lift" data-bigpicture='{"vidSrc: "https://www.loom.com/share/8285df9547a545cbbd1f1e955da29870"}' href="#">
               <i class="fe fe-eye me-2"></i>
               Watch Demo
-             </a>
+             </a> -->
+             
+             <!-- Button 4-cbc0K578o -->
+            <a class="btn btn-pill btn-white shadow lift" data-bigpicture='{"ytSrc": "4-cbc0K578o"}' href="#">
+              <i class="fe fe-eye me-2"></i>
+              Watch Blog-in-th-Box Video
+            </a>
 
             <!-- Video 
             <div class="ratio ratio-16x9">
@@ -1745,7 +1751,7 @@ complete blogging system
                 </div>
 
                 <!-- Button -->
-                <a href="https://gum.co/ZVkym?wanted=true" target="_blank" class="btn w-100 btn-info">
+                <a href="https://gum.co/zwIVA?wanted=true" target="_blank" class="btn w-100 btn-info">
                   Blog-in-a-Box | Buy Now <i class="fe fe-arrow-right ms-3"></i>
                 </a>
 
