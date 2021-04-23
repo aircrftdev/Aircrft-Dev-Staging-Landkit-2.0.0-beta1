@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Landkit"}}
+  </head>
+  <body>
+
+    <!-- MODALS -->
+    {{> partials/modals}}
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light bg-white border-bottom" container="container" button="primary"}}
+
+    <!-- WELCOME -->
+    <section class="border-bottom">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 offset-md-1 order-md-2">
+
+            <!-- Slider (mobile) -->
+            <div class="d-md-none img-cover" data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": false}'>
+              <div class="w-100">
+
+                <!-- Image -->
+                <img src="assets/img/covers/cover-12.jpg" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100">
+
+                <!-- Image -->
+                <img src="assets/img/covers/cover-2.jpg" alt="..." class="img-fluid">
+
+              </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="position-relative h-100 vw-50 d-none d-md-block" data-aos="fade-left">
+
+              <!-- Slider -->
+              <div class="flickity-button-bottom flickity-button-white h-100 w-100" data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false}'>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/img/covers/cover-9.jpg);"></div>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/img/covers/cover-2.jpg);"></div>
+              </div>
+
+              <!-- Shape -->
+              <div class="shape shape-start shape-fluid-y svg-shim text-white">
+                {{> angles/angle-start}}
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-5 py-8 py-md-14 order-md-1" data-aos="fade-right">
+
+            <!-- Heading -->
+            <h1 class="display-3">
+              Coworking spaces built for <span class="text-success">startups.</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-6 mb-md-8">
+              We design and build coworking spaces tailored to the needs of growing teams.
+            </p>
+
+            <!-- Text -->
+            <p>
+              Where are you located?
+            </p>
+
+            <!-- Form -->
+            <form>
+              <div class="row gx-4">
+                <div class="col-12 col-lg">
+
+                  <!-- Search -->
+                  <div class="form-group mb-lg-0">
+                    <input type="search" class="form-control" value="Los Angeles">
+                  </div>
+
+                </div>
+                <div class="col-12 col-lg-auto">
+
+                  <!-- Button -->
+                  <button type="submit" class="btn w-100 btn-primary shadow lift">
+                    Find space
+                  </button>
+
+                </div>
+              </div> <!-- / .form-row -->
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FLEXIBILITY -->
+    <section class="pt-8 pt-md-11 bg-gradient-light-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-success-soft mb-3">
+              <span class="h6 text-uppercase">Flexibility</span>
+            </span>
+
+            <!-- Heading -->
+            <h1>
+              Spaces for any size of team.
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-7 mb-md-9">
+              No matter what size your team, we have a solution. From single shared spaces to entire floors, it's available.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-4" data-aos="fade-up">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+
+              <!-- Image -->
+              <img src="assets/img/photos/photo-4.jpg" alt="..." class="card-img-top">
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body position-relative">
+
+                <!-- Badge -->
+                <div class="position-relative text-end mt-n8 me-n4 mb-3">
+                  <span class="badge rounded-pill bg-success">
+                    <span class="h6 text-uppercase">$49/mo</span>
+                  </span>
+                </div>
+
+                <!-- Heading -->
+                <h3>
+                  Shared Coworking
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  Open seating is available weekdays from 7am - 7pm and weekends from 9am - 5pm.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" class="fw-bold text-decoration-none">
+                  Tour the space <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+
+              <!-- Image -->
+              <img src="assets/img/photos/photo-5.jpg" alt="..." class="card-img-top">
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body position-relative">
+
+                <!-- Badge -->
+                <div class="position-relative text-end mt-n8 me-n4 mb-3">
+                  <span class="badge rounded-pill bg-warning">
+                    <span class="h6 text-uppercase">$99/mo</span>
+                  </span>
+                </div>
+
+                <!-- Heading -->
+                <h3>
+                  Designated Desk
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  A personal space to leave your computer, monitor, and supplies with unlimited access.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" class="fw-bold text-decoration-none">
+                  Find a desk <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- This one Chai | Card | Blog-in-a-Box -->
+            <div class="card shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <img src="assets/img/products/blog/aircrft-blogging-with-benefits.png" alt="Aircrft Blog in a Box" class="card-img-top">
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body position-relative">
+
+                <!-- Badge -->
+                <div class="position-relative text-end mt-n8 me-n4 mb-3">
+                  <span class="badge rounded-pill bg-primary">
+                    <span class="h6 text-uppercase">$99/yr</span>
+                  </span>
+                </div>
+
+                <!-- Heading -->
+                <h3>
+                  Blog-in-a-Box
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  Reach and grow a highly engaged global community.
+                </p>
+
+                <!-- Link -->
+                <a href="blog-in-a-box.html" class="fw-bold text-decoration-none">
+                  Learn more <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+                
+                <!-- Double buttons -->
+                <a href="https://gum.co/zwIVA?wanted=true" target="_blank" class="btn btn-primary shadow lift me-1">
+                Get started <i class="fe fe-arrow-right ms-3"></i>
+              </a>
+
+              </div>
+
+            </div>
+            
+            <!-- Buttons -->
+            <div class="text-md-start">
+              
+              <a class="btn btn-pill btn-white shadow lift" data-bigpicture='{"ytSrc": "4-cbc0K578o"}' href="#">
+              <i class="fe fe-eye me-2"></i>
+              Watch demo
+            </a>
+
+              </div>
+            </a> 
+            
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- Aircrft Solutios Product Card -->
+    <section class="py-8 py-md-11 mt-n10 mt-md-n14">
+      <div class="container">
+        <div class="row" id="portfolio" data-isotope='{"layoutMode": "fitRows"}'>
+          <div class="col-12 ux">
+
+             <!-- This one Chai | Card | Blog-in-a-Box -->
+            <div class="card shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <img src="assets/img/products/blog/aircrft-blogging-with-benefits.png" alt="Aircrft Blog in a Box" class="card-img-top">
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body position-relative">
+
+                <!-- Badge -->
+                <div class="position-relative text-end mt-n8 me-n4 mb-3">
+                  <span class="badge rounded-pill bg-primary">
+                    <span class="h6 text-uppercase">$99/yr</span>
+                  </span>
+                </div>
+
+                <!-- Heading -->
+                <h3>
+                  Blog-in-a-Box
+                </h3>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  Reach and grow a highly engaged global community.
+                </p>
+
+                <!-- Learn more Link -->
+                <a href="blog-in-a-box.html" class="fw-bold text-decoration-none">
+                  Learn more <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+                
+                <!-- Double buttons -->
+                <a href="https://gum.co/zwIVA?wanted=true" target="_blank" class="btn btn-primary shadow lift me-1">
+                Blog-in-a-Box | Buy now <i class="fe fe-arrow-right ms-3"></i>
+              </a>
+
+              </div>
+
+            </div>
+            
+            <!-- Watch Demo Button -->
+            <div class="text-center text-md-start">
+              
+              <a class="btn btn-pill btn-white shadow lift" data-bigpicture='{"ytSrc": "4-cbc0K578o"}' href="#">
+              <i class="fe fe-eye me-2"></i>
+              Watch demo
+            </a>
+
+              </div>
+              
+              <!-- Learn more Link -->
+                <a href="blog-in-a-box.html" class="fw-bold text-decoration-none">
+                  Learn more <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+              
+            </a> 
+            
+          </div>
+
+          </div>
+        </div> <!-- / .row -->
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPERPOWERS FAQ DROPDOWNS -->
+    <section class="py-8 py-md-11 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h2>
+              <span class="text-primary">Batteries</span> Included.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-7 mb-md-9 px-md-9">
+              human curated positive impact technology solutions to uplift empower and make your day to day a little bit more wonderful
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+
+            <!-- Card -->
+            <div class="card accordion" id="featuresAccordion">
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <div class="list-group-item">
+
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-bs-toggle="collapse" href="#featuresOne" role="button" aria-expanded="true" aria-controls="featuresOne">
+                      <div class="me-auto">
+
+                        <!-- Title -->
+                        <p class="fw-bold mb-0">
+                          Superpowers
+                        </p>
+
+                        <!-- Text -->
+                        <p class="fs-sm text-muted mb-0">
+                          Our new key fobs make it so easy!
+                        </p>
+
+                      </div>
+
+                      <!-- Badge -->
+                      <span class="badge rounded-pill bg-success-soft ms-4">
+                        <span class="h6 text-uppercase">New</span>
+                      </span>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ms-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+
+                    <!-- Collapse -->
+                    <div class="collapse show" id="featuresOne" data-bs-parent="#featuresAccordion">
+                      <div class="py-5 py-mb-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="fw-bold text-decoration-none">
+                          Check it out <i class="fe fe-arrow-right ms-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="list-group-item">
+
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-bs-toggle="collapse" href="#featuresTwo" role="button" aria-expanded="false" aria-controls="featuresTwo">
+                      <div class="me-auto">
+
+                        <!-- Title -->
+                        <p class="fw-bold mb-0">
+                          Bebefits
+                        </p>
+
+                        <!-- Text -->
+                        <p class="fs-sm text-muted mb-0">
+                          Keep your engine going with free food and drinks.
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ms-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+
+                    <!-- Collapse -->
+                    <div class="collapse" id="featuresTwo" data-bs-parent="#featuresAccordion">
+                      <div class="py-5 py-md-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="fw-bold text-decoration-none">
+                          Check it out <i class="fe fe-arrow-right ms-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="list-group-item">
+
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-bs-toggle="collapse" href="#featuresThree" role="button" aria-expanded="false" aria-controls="featuresThree">
+                      <div class="me-auto">
+
+                        <!-- Title -->
+                        <p class="fw-bold mb-0">
+                          Tech stack
+                        </p>
+
+                        <!-- Text -->
+                        <p class="fs-sm text-muted mb-0">
+                          Peek under the hood
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ms-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+
+                    <!-- Collapse -->
+                    <div class="collapse" id="featuresThree" data-bs-parent="#featuresAccordion">
+                      <div class="py-5 py-md-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="fw-bold text-decoration-none">
+                          Check it out <i class="fe fe-arrow-right ms-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative mt-n16">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section class="pt-16 bg-dark">
+      {{> partials/footer classList="bg-dark border-top border-gray-800-50"}}
+    </section>
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>
