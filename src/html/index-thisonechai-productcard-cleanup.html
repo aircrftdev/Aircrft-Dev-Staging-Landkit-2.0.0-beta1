@@ -77,8 +77,8 @@
             <div class="card h-100 bg-dark bg-pattern-2 rounded-3">
               <div class="card-body p-5 pb-0 my-auto">
               
-                <!-- Price Badge -->
-                <span class="badge rounded-pill bg-info badge-float badge-float-inside">
+                <!-- Price Badge bg-info | bg-success-soft mb-3 -->
+                <span class="badge rounded-pill bg-success-soft mb-3 badge-float badge-float-inside">
                   $99/yr
                 </span>
 
@@ -136,9 +136,16 @@
                 <!-- List 4 Watch the Video -->
                 <div class="d-flex">
                 
+                <!-- Icon -->
+                <div class="icon text-primary mb-3">
+                  {{> general/settings-1}}
+                </div>
+                
                   <!-- Button -->
                   <a class="btn btn-pill btn-white shadow lift" data-bigpicture='{"ytSrc": "4-cbc0K578o"}' href="#">
-                    <i class="fe fe-eye me-2"></i>
+                    <div class="icon text-primary mb-3">
+                    {{> general/settings-1}}
+                    </div>
                     Play 
                   </a>
                 
