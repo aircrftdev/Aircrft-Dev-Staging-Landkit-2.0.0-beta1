@@ -35,7 +35,7 @@
             <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE -->
             <div class="text-center mb-5">
               <span class="badge rounded-pill bg-success-soft mb-3">
-                <span class="h3 fw-bold text-uppercase">THE STARTUP MARKETPLACE</span>
+                <span class="h4 fw-bold text-uppercase">THE STARTUP MARKETPLACE</span>
               </span>
             </div> 
 
@@ -84,14 +84,19 @@
         <div class="row mt-n7 py-10 py-md-14">
           <div class="col-12">
 
-            <!-- Card 1 | card-shadow-dark-lg-lift-lg 1 bg-dark bg-pattern-2 -->
-            <div class="card-shadow-dark-lg card lift lift-lg bg-dark card-border card-border-lg border-success bg-pattern-2 rounded-3">
+            <!-- Card 1 | card-shadow-dark-lg card lift lift-lg bg-dark card-border card-border-lg border-success bg-pattern-2 rounded-3 -->
+            <div class="card-shadow-dark-lg card lift lift-lg bg-dark bg-pattern-2 rounded-3 border border-primary border border-1">
               <div class="card-body p-5 pb-0 my-auto">
               
                 <!-- Price Badge -->
                 <span class="badge rounded bg-primary badge-float badge-float-inside">
-                  <span class="h3 text">$99</span>
+                  <span class="h3 text">$99/mo</span>
                 </span>
+
+                <!-- Youtube video -->
+                <a data-bigpicture='{"ytSrc": "9I-Y6VQ6tyI"}' href="#">
+                  <img src="src/img/products/blog/aircrft-blog-in-a-box-card-1029x550.png" class="img-fluid" alt="...">
+                </a>
 
                 <!-- Image -->
                 <img class="img-fluid" src="assets/img/illustrations/illustration-9.png" alt="Aircrft Homepage Website and Landing Page Builder" style="max-width: 150px;">
@@ -109,18 +114,74 @@
                   A complete blogging system built for startups
                 </p>
 
-                <ul class="card-list list mb-0">
+                  <div class="dropdown">
+                    <button class="btn btn-xs btn btn-success-soft dropdown-toggle" type="button" id="dropdownMenuExtraSmall"
+                      data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Learn more
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-xs" aria-labelledby="dropdownMenuExtraSmall">
+                      <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalExample"> <div class="icon icon-lg text-success me-2">
+                        {{> media/movie-lane-2}}
+                      </div>Meet the crew behind this stack </a>
+                      <a class="dropdown-item" href="#!">Why Chai Forest curated this stack</a>
+                      <a class="dropdown-item" href="#!">Explore and learn more</a>
+                    </div>
+                  </div>
+
+                  <button class="btn btn-sm btn btn-success-soft" data-bs-toggle="modal" data-bs-target="#modalExample">
+                    Learn more <i class="fe fe-arrow-right ms-3"></i>
+                  </button>
+
+                <!--  <ul class="card-list list mb-0">
                   <li class="list-item active">
                     <a href="index-home-4-23-slice.html" class="fs-md fw-bold text-decoration-none text-success">
                       Learn more <i class="fe fe-arrow-right ms-3"></i>
                     </a>
-                  </li>
+                  </li> -->
+
+                  <div class="card-body d-flex align-items-center flex-wrap">
+                  
+                    <div class="icon icon-lg text-success me-2">
+                      {{> media/movie-lane-2}}
+                    </div>
+                  
+                    <div class="icon icon-lg text-primary me-2">
+                      {{> tools/pantone}}
+                    </div>
+                  
+                  </div>
+
+                  <div class="form-check form-check-dark form-switch">
+                    <input type="checkbox" class="form-check-input" id="customSwitch2">
+                    <label class="form-check-label text-white" for="customSwitch2">Toggle this switch element</label>
+                  </div>
+
+                  <button class="btn btn-sm btn btn-success-soft" data-bs-toggle="modal" data-bs-target="#modalExample">
+                    Curated by Chai Forest <i class="fe fe-feather"></i>
+                  </button>
 
                   <li class="list-item active">
-                    <button class="btn btn-sm btn btn-outline-warning"> Curated | Chai Forest
+                    <button class="btn btn-sm btn btn-outline-warning">
                       <i class="fe fe-feather"></i>
                     </button>
                   </li>
+
+                  <div class="dropdown">
+                    <button class="btn btn-xs btn-primary dropdown-toggle" type="button" id="dropdownMenuExtraSmall"
+                      data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Curated by Chai Forest <i class="fe fe-feather"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-xs" aria-labelledby="dropdownMenuExtraSmall">
+                      <a class="dropdown-item" href="#!">Action</a>
+                      <a class="dropdown-item" href="#!">Another action</a>
+                      <a class="dropdown-item" href="#!">Something else here</a>
+                    </div>
+                  </div>
+
+                  <!-- Youtube video 
+                  <a data-bigpicture='{"ytSrc": "9I-Y6VQ6tyI"}' href="#">
+                    <img src="src/img/products/blog/aircrft-blog-in-a-box-card-1029x550.png" class="img-fluid" alt="App-in-a-Box">
+                  </a> -->
 
                 <!-- Aircrft Product Card Control Panel Play | Learn more | Curated by | Add to stack 
                 <button class="btn btn-rounded-circle btn btn-outline-success">
@@ -189,8 +250,6 @@
                 <p class="text-gray-300">
                 Blazing-fast
                 </p>
-    
-                </div>
 
                 <!-- Aircrft Product Card Control Panel Play | Learn more | Curated by | Add to stack -->
                 <button class="btn btn-rounded-circle btn btn-outline-success">
@@ -207,7 +266,13 @@
                 
                 <button class="btn btn-rounded-circle btn btn-outline-danger">
                   <i class="fe fe-plus"></i>
-                </button> 
+                </button>
+
+                </div>
+
+            <!-- Divider -->
+            <hr class="bg-gray-300 my-6">
+ 
     
                 <!-- Badge 
                 <div class="avatar avatar-online">
